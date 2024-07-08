@@ -1,0 +1,10 @@
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Laptop', 1200.50, '2024-06-15');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Smartphone', 800.00, '2024-05-10');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Tablet', 450.75, '2024-06-20');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Monitor', 220.99, '2024-07-01');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Teclado', 35.20, '2024-04-18');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Ratón', 18.50, '2024-05-25');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Impresora', 150.00, '2024-06-05');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Cámara', 500.60, '2024-06-27');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Auriculares', 70.00, '2024-04-22');
+INSERT INTO productos (nombre, precio, fecha_creacion) VALUES ('Disco Duro Externo', 99.99, '2024-03-14');

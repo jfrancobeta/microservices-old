@@ -1,0 +1,47 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootServicioProductosApplication<springboot-servicio-productos>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jfranco.microservicios.producto.springboot_servicio_productos.SpringbootServicioProductosApplication",
+            "projectName": "springboot-servicio-productos",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=61710 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=springboot-servicio-productos"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootServicioItemApplication<springboot-servicio-item>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jfranco.microservicies.item.springboot_servicio_item.SpringbootServicioItemApplication",
+            "projectName": "springboot-servicio-item",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=61708 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=springboot-servicio-item"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootServicioEurekaApplication<springboot-servicio-eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jfranco.springboot.eureka.server.springboot_servicio_eureka.SpringbootServicioEurekaApplication",
+            "projectName": "springboot-servicio-eureka",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=61692 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=springboot-servicio-eureka"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringbootServicioZuulApplication<springboot-servicio-zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.jfranco.springboot.zuul.springboot_servicio_zuul.SpringbootServicioZuulApplication",
+            "projectName": "springboot-servicio-zuul",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
