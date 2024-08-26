@@ -18,7 +18,7 @@ Este repositorio muestra una implementación de microservicios utilizando tecnol
 1. **Clona el repositorio:**
 
     ```bash
-    git clone https://github.com/tuusuario/tu-repositorio.git
+    https://github.com/jfrancobeta/microservices-old.git
     ```
 
 2. **Navega al directorio de cada servicio y ejecuta los servicios con Maven:**
